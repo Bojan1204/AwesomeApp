@@ -1,0 +1,28 @@
+
+
+.margin_bottom{
+    margin-bottom: 6rem;
+}
+
+
+.margin_top{
+    margin-top: 5rem;
+}
+
+
+
+.article{
+    font-size: 2.5rem;
+    color: rgb(249, 71, 83);
+}
+
+
+
+
+
+.margin_bottom{
+    @include media-breakpoint-down(md){
+        margin-bottom: 3rem;
+    }
+   
+}

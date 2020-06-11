@@ -1,0 +1,48 @@
+.section_background{
+    background: $header-color;
+    height: auto;
+
+.icon-size{
+    font-size: 2.5rem;
+
+    @include media-breakpoint-up(lg){
+        font-size: 3rem;
+    }
+}
+
+.margin-bottom-downloads{
+   margin-bottom: 5rem;
+
+   .card-radius{
+    border-radius: 20px;
+   
+    .card_text{
+        @include media-breakpoint-up(lg){
+           font-size: 0.8rem;
+            
+        }
+    }
+
+}
+}
+.margin-top-downloads{
+
+    margin-top: 5rem;
+}
+.a-apple{
+
+    &:hover{
+        color: #000;
+    }
+}
+.a-android{
+
+    &:hover{
+        color: #a4c639;
+    }
+}
+}
+
+
+
+
