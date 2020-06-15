@@ -2,45 +2,52 @@
     background: $header-color;
     height: auto;
 
-.icon-size{
-    font-size: 2.5rem;
+    .icon-size{
+        font-size: 2.5rem;
 
-    @include media-breakpoint-up(lg){
-        font-size: 3rem;
+        @include media-breakpoint-up(lg){
+            font-size: 3rem;
+        }
     }
-}
 
-.margin-bottom-downloads{
-   margin-bottom: 5rem;
+    .margin-bottom-downloads{
+    margin-bottom: 5rem;
+
+    @include media-breakpoint-down(md){
+    display: flex;
+    justify-content: center;
+        }
 
    .card-radius{
     border-radius: 20px;
    
-    .card_text{
-        @include media-breakpoint-up(lg){
-           font-size: 0.8rem;
-            
+        .card_text{
+            @include media-breakpoint-up(lg){
+            font-size: 0.8rem;
+                }
+            }
         }
     }
 
-}
-}
-.margin-top-downloads{
-
-    margin-top: 5rem;
-}
-.a-apple{
-
-    &:hover{
-        color: #000;
+    .margin-top-downloads{
+        margin-top: 5rem;
+    margin-bottom: 4rem;
     }
-}
-.a-android{
+    .a-apple{
 
-    &:hover{
-        color: #a4c639;
+        &:hover{
+            color: #000;
+        }
     }
-}
+    .a-android{
+
+        &:hover{
+            color: #a4c639;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
 }
 
 

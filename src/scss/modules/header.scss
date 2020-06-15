@@ -1,33 +1,41 @@
 #headerr{
-background: rgb(249, 71, 83);
-}
+    background: rgb(249, 71, 83);
 
+    .navbar-decoration{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 
-.button{
-    background: transparent;
-    color: #fff;
-    padding: 12px 16px ;
-    border-radius: 30px;
-    border: 2px solid #fff;
-    font-size: 14px;
-    font-weight: 300;
-&:hover{
-    background: #fff;
-    color: #000;
-}
+    .button{
+        background: transparent;
+        color: #fff;
+        padding: 12px 16px ;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        font-size: 14px;
+        font-weight: 300;
+        &:hover{
+        background: #fff;
+        color: #000;
+        }
+    }   
+    
+    .logo_none{
 
-}
-
-
-.logo_none{
-
-    img{
-
-        @include media-breakpoint-down(md) {
-            display: none;
+        img{
+    
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
         }
     }
 }
+
+
+
+
+
 
 
 
