@@ -3,11 +3,10 @@
     border-radius: 20px;
     border-color: $slider-color;
 
-    .medium-items{
-
-        @include media-breakpoint-down(md){
-            margin-left: 15rem;
-         }
+    .flexx-box{
+       
+      
+   
     }
   
     .font_size{
@@ -29,9 +28,6 @@
     .img_size{
         width: 7rem;
         border-radius: 50%;
-        margin-left: 2rem;
-
-      
     }
     
         &.bottom {
@@ -41,19 +37,15 @@
 
     .people-names{
 
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-up(lg){
         display: block;
         font-size: 0.8rem;
         margin-bottom: 1rem;
         }
 
-        @include media-breakpoint-down(md){
-         margin-left: 3rem;
-        margin-top: 2rem;
+     
 
-    }
-
-    @include media-breakpoint-down(sm){
+    @include media-breakpoint-up(sm){
         margin-left: 0.5rem;
        margin-top: 1rem;
 
