@@ -2,12 +2,7 @@
     background: $slider-color;
     border-radius: 20px;
     border-color: $slider-color;
-
-    .flexx-box{
-       
-      
-   
-    }
+    position: relative;
   
     .font_size{
         font-size: 14px;
@@ -24,7 +19,7 @@
             text-align: center;
          }
     }
-
+    
     .img_size{
         width: 7rem;
         border-radius: 50%;
@@ -43,11 +38,14 @@
         margin-bottom: 1rem;
         }
 
+       
+
+
      
 
     @include media-breakpoint-up(sm){
         margin-left: 0.5rem;
-       margin-top: 1rem;
+        margin-top: 1rem;
 
    }
 }

@@ -14,9 +14,10 @@
     margin-bottom: 5rem;
 
     @include media-breakpoint-down(md){
-    display: flex;
-    justify-content: center;
-        }
+        display: flex;
+        justify-content: center;
+            }
+
 
    .card-radius{
     border-radius: 20px;
@@ -34,20 +35,34 @@
     margin-bottom: 4rem;
     }
     .a-apple{
-
+       
         &:hover{
             color: #000;
         }
-    }
-    .a-android{
 
+    }
+    .a-android{  
         &:hover{
             color: #a4c639;
+        }
+
+    }
+
+    .a-microsoft{
+       
+        &:hover{
+            color: #00A4EF;;
         }
     }
     a{
         text-decoration: none;
+        color: #888888;
+    
+        
     }
+
+  
+
 }
 
 
