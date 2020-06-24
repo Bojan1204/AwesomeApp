@@ -2,8 +2,7 @@
     background: $slider-color;
     border-radius: 20px;
     border-color: $slider-color;
-    position: relative;
-  
+
     .font_size{
         font-size: 14px;
 
@@ -19,9 +18,38 @@
             text-align: center;
          }
     }
+
+
+    .people-class{
+        @include media-breakpoint-down(md){
+            display: flex;
+            flex-direction: column;
+           
+        }
+    
+        .people-names{
+
+            @include media-breakpoint-up(lg){
+            display: block;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            }
+    
+        @include media-breakpoint-up(sm){
+            margin-top: 1rem;
+            
+    
+       }
+
+     
+    }
+}
+
+
+
+
     
     .img_size{
-        width: 7rem;
         border-radius: 50%;
     }
     
@@ -30,23 +58,5 @@
     }
 }
 
-    .people-names{
-
-        @include media-breakpoint-up(lg){
-        display: block;
-        font-size: 0.8rem;
-        margin-bottom: 1rem;
-        }
-
-       
-
-
-     
-
-    @include media-breakpoint-up(sm){
-        margin-left: 0.5rem;
-        margin-top: 1rem;
-
-   }
-}
+  
 
