@@ -64,7 +64,7 @@
             <i class="fa fa-check-circle"></i><span class="ml-3 ">Very Easy to Customize and Setup</span>
           </div>
         </div><!--End row-->
-          <button class="button mt-5 mb-5" onclick="pozdrav()" >START EXPLORING</button>
+          <button class="button mt-5 mb-5" onclick="scrollIntoShowcase()" >START EXPLORING</button>
       </div><!--End column-->
       <div class="col-md-12 col-lg-6 d-flex justify-content-end mb-5 logo_none">
         <img class="" src="img/1.jpg" alt="phone">
@@ -75,7 +75,7 @@
 <!--End Header-->
 
 <!--Articles-->
-<section class="">
+<section id="scrollIntoShowcase">
   <div class="container">
     <div class="row margin_top border-bottom ">
       <div class="col-md-6 col-lg-4 mb-5">
@@ -518,6 +518,12 @@
   function pozdrav() {
 
         alert("Pozdrav ovo je moj sajt!");
+}
+
+let element = document.getElementById("scrollIntoShowcase")
+
+function scrollIntoShowcase() {
+  element.scrollIntoView({behavior: "smooth"})
 }
 
 
