@@ -275,4 +275,8 @@ Modernizr does three things:
 ---
 * **Bojan Bosnic** - *Web Developer*
 
+## Credits
+---
+Original Author of theme - @crowscript
+
 **[Back to top](#table-of-contents)**
