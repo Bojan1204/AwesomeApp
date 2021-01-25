@@ -2,6 +2,9 @@
     background: $slider-color;
     border-radius: 20px;
     border-color: $slider-color;
+    &:hover{
+        padding-top: 20px;
+    }
 
     .font_size{
         font-size: 14px;

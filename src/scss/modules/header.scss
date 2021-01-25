@@ -1,6 +1,21 @@
-#headerr{
-    background: rgb(249, 71, 83);
+html{
+    scroll-behavior: smooth;
+}
 
+.header{
+
+    background: rgb(249, 71, 83);
+   
+    #probicabre{
+        
+        transition: 0.3s ease-in-out;
+    }
+    .navbar{
+        
+        background: rgb(249, 71, 83);
+        
+    }
+    
     .navbar-decoration{
         &:hover{
             text-decoration: underline;
@@ -31,7 +46,16 @@
             }
         }
     }
+
+
+.probicabree{
+    padding: 5px 100px ;
+    background: rgb(24, 19, 19);
 }
+    
+}
+
+
 
 
 

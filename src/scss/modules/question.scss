@@ -1,4 +1,25 @@
+.pocetak{
+    display: none;
+    transition: 0.4s all;
+}
+
+
+.lala{
+    display: block;
+}
+
+
+
 .phone{
+
+    &:hover{
+        max-width: 120%;
+        transition: 0.3s;
+    }
+
+    &::after{
+        transition: 0.3s;
+    }
 
     @include media-breakpoint-down(md){
         margin-bottom: 4rem;

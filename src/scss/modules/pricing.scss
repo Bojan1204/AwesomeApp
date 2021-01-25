@@ -4,14 +4,21 @@
 
 .color_container{
         background: $slider-color;
+        transition: 0.2s;
+        &:hover{
+            -webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+            box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+        
+        }
 
     .white_bg{
         background: #fff;
     }
 
-    .header_bg{
-        background: $header-color;
-    }
+    // .header_bg{
+    //     background: $header-color;
+    // }
 
     .buttonn{
         background: transparent;
@@ -21,28 +28,28 @@
         border: 2px solid $black;
         font-size: 14px;
         font-weight: 300;
-        &:hover{
-        background: $header-color;
-        color: $white;
-        border-color: $header-color;
-        }
+        // &:hover{
+        // background: $header-color;
+        // color: $white;
+        // border-color: $header-color;
+        // }
     }
 
     .button_hover{
-        background: $header-color;
-        color: #fff;
+        background: #fff;
+        color: #000;
         padding: 10px 34px ;
         border-radius: 30px;
-        border: 2px solid $header-color;
+        border: 2px solid ;
         font-size: 14px;
         font-weight: 300;
 
-        &:hover{
-        background: $white;
-        color: #000000;
-        border-color: #000000;
+        // &:hover{
+        // background: $white;
+        // color: #000000;
+        // border-color: #000000;
 
-            }
+        //     }
       }
 }
 

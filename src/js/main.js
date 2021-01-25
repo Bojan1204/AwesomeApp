@@ -1,15 +1,27 @@
-// Custom JS
-
-console.log('Website is runing..');
+import { Button } from "bootstrap";
 
 
-// $('.test-btn').addClass('fat')
+let header = document.getElementById('probicabre');
+let hideText = document.getElementById('scrollFeatures');
+let pocetak = document.getElementById('pocetak');
 
 
-var $test = $('.test-btn');
+window.addEventListener('scroll', ()=>{
+    header.classList.toggle('probicabree', window.scrollY > 1);
+});
 
-$test.click(function () {
-    $(this).addClass('TEST')
-  });
+window.addEventListener('scroll', ()=>{
+    pocetak.classList.toggle('lala', window.scrollY > 500);
+});
+
+
+
+
+
+
+
+
+
+
 
 
