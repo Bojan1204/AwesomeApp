@@ -1,25 +1,29 @@
-.pocetak{
-    display: none;
-    transition: 0.4s all;
+
+// .normalClass{
+//     opacity: 0;
+//     transition: 0.5s all ease-in-out;
+//     transform: translateY(30px);
+// }
+
+// .addClass{
+//     opacity: 1;
+//     transform: translateY(0px);
+// }
+
+
+.slika-proba{
+    font-size: small;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+
 }
-
-
-.lala{
-    display: block;
-}
-
 
 
 .phone{
-
-    &:hover{
-        max-width: 120%;
-        transition: 0.3s;
-    }
-
-    &::after{
-        transition: 0.3s;
-    }
+ 
 
     @include media-breakpoint-down(md){
         margin-bottom: 4rem;

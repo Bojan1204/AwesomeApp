@@ -2,18 +2,24 @@ html{
     scroll-behavior: smooth;
 }
 
-.header{
+// .header{
 
-    background: rgb(249, 71, 83);
-   
+    header{
+        background: rgb(249, 71, 83);
+    }
+    .proba99{
+        margin-top: 80px;
+    }
     #probicabre{
         
-        transition: 0.3s ease-in-out;
+        transition: 0.2s ease-in-out;
     }
-    .navbar{
-        
-        background: rgb(249, 71, 83);
-        
+    
+    .header-phone{
+        transition: 0.2s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
     
     .navbar-decoration{
@@ -30,6 +36,7 @@ html{
         border: 2px solid #fff;
         font-size: 14px;
         font-weight: 300;
+        transition: 0.2s ease-in-out;
         &:hover{
         background: #fff;
         color: #000;
@@ -50,10 +57,10 @@ html{
 
 .probicabree{
     padding: 5px 100px ;
-    background: rgb(24, 19, 19);
+    background:  rgb(249, 71, 83);
 }
     
-}
+// }
 
 
 

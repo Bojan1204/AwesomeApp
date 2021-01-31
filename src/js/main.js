@@ -1,23 +1,34 @@
 import { Button } from "bootstrap";
+// import { addDevServerEntrypoints } from "webpack-dev-server";
 
 
 let header = document.getElementById('probicabre');
-let hideText = document.getElementById('scrollFeatures');
-let pocetak = document.getElementById('pocetak');
-
 
 window.addEventListener('scroll', ()=>{
     header.classList.toggle('probicabree', window.scrollY > 1);
 });
 
-window.addEventListener('scroll', ()=>{
-    pocetak.classList.toggle('lala', window.scrollY > 500);
-});
 
 
 
 
 
+
+
+
+
+
+// let myApp=()=>{
+//     let text = document.querySelector('.normalClass');
+//     let vrhDiva = text.getBoundingClientRect().top;
+//     let visinaWindowa = innerHeight;
+
+//      if(visinaWindowa < vrhDiva){
+//             text.classList.add('addClass');
+//     }
+// }
+
+// addEventListener('scroll', myApp);
 
 
 
