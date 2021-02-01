@@ -11,13 +11,6 @@ window.addEventListener('scroll', ()=>{
 
 
 
-
-
-
-
-
-
-
 // let myApp=()=>{
 //     let text = document.querySelector('.normalClass');
 //     let vrhDiva = text.getBoundingClientRect().top;
