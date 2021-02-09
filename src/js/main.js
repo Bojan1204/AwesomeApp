@@ -11,17 +11,6 @@ window.addEventListener('scroll', ()=>{
 
 
 
-// let myApp=()=>{
-//     let text = document.querySelector('.normalClass');
-//     let vrhDiva = text.getBoundingClientRect().top;
-//     let visinaWindowa = innerHeight;
-
-//      if(visinaWindowa < vrhDiva){
-//             text.classList.add('addClass');
-//     }
-// }
-
-// addEventListener('scroll', myApp);
 
 
 

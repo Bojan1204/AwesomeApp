@@ -1,75 +1,158 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-// .header{
+header {
+    background: rgb(249, 71, 83);
+}
+.proba99 {
+    margin-top: 80px;
+}
+#probicabre {
+    transition: 0.2s ease-in-out;
+}
 
-    header{
+.header-phone {
+    transition: 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.navbar-decoration {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.button {
+    background: transparent;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+.logo_none {
+    img {
+        display: none;
+    }
+}
+
+.probicabree {
+    // padding: 5px 100px;
+    background: rgb(249, 71, 83);
+}
+
+@include media-breakpoint-up(md) {
+    header {
         background: rgb(249, 71, 83);
     }
-    .proba99{
+    .proba99 {
         margin-top: 80px;
     }
-    #probicabre{
-        
+    #probicabre {
         transition: 0.2s ease-in-out;
     }
-    
-    .header-phone{
+
+    .header-phone {
         transition: 0.2s ease-in-out;
-        &:hover{
+        &:hover {
             transform: scale(1.1);
         }
     }
-    
-    .navbar-decoration{
-        &:hover{
+
+    .navbar-decoration {
+        &:hover {
             text-decoration: underline;
         }
     }
 
-    .button{
+    .button {
         background: transparent;
         color: #fff;
-        padding: 12px 16px ;
+        padding: 12px 16px;
         border-radius: 30px;
         border: 2px solid #fff;
         font-size: 14px;
         font-weight: 300;
         transition: 0.2s ease-in-out;
-        &:hover{
-        background: #fff;
-        color: #000;
-        }
-
-    }   
-    
-    .logo_none{
-
-        img{
-    
-            @include media-breakpoint-down(md) {
-                display: none;
-            }
+        &:hover {
+            background: #fff;
+            color: #000;
         }
     }
 
+    .logo_none {
+        img {
+            display: none;
+        }
+    }
 
-.probicabree{
-    padding: 5px 100px ;
-    background:  rgb(249, 71, 83);
+    .probicabree {
+        padding: 5px 100px;
+        background: rgb(249, 71, 83);
+    }
 }
-    
-// }
 
+@include media-breakpoint-up(lg) {
+    header {
+        background: rgb(249, 71, 83);
+    }
+    .proba99 {
+        margin-top: 80px;
+    }
+    #probicabre {
+        transition: 0.2s ease-in-out;
+    }
 
+    .header-phone {
+        transition: 0.2s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 
+    .navbar-decoration {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 
+    .button {
+        background: transparent;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        font-size: 14px;
+        font-weight: 300;
+        transition: 0.2s ease-in-out;
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
+    }
 
+    .logo_none {
+        img {
+            display: block;
+        }
+    }
 
+    .probicabree {
+        padding: 5px 100px;
+        background: rgb(249, 71, 83);
+    }
+}
 
-
-
-
-
-    
+.navbar-collapse {
+    background-color: rgb(249, 71, 83);
+}
