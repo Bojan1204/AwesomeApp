@@ -40,6 +40,13 @@ header {
     }
 }
 
+.logo-name {
+    display: none;
+    @include media-breakpoint-up(sm) {
+        display: block;
+    }
+}
+
 .logo_none {
     img {
         display: none;
@@ -90,6 +97,9 @@ header {
         }
     }
 
+    .logo-name {
+        display: block;
+    }
     .logo_none {
         img {
             display: none;
@@ -139,6 +149,10 @@ header {
             background: #fff;
             color: #000;
         }
+    }
+
+    .logo-name {
+        display: block;
     }
 
     .logo_none {
