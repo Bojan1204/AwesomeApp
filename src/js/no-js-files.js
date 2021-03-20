@@ -4,7 +4,7 @@
 // import '../img/bg.png';
 import '../scss/index.scss';
 // import '../img/icons/favicon.ico';
-import '../img/1.png';
+import '../img/icons/favicon.png';
 import '../../.gitkeep';
 import '../.htaccess';
 import '../fonts/Anton-Regular.ttf';
